@@ -18,7 +18,7 @@ A Node/Express API for checking the validity of a proxy.
 #### Check status of a HTTP proxy
 
 ```
-  GET /checkProxy/?proxy=87.236.197.232:3128&type=http&timeout=5000
+  GET api.bogyz.online/checkProxy/?proxy=87.236.197.232:3128&type=http&timeout=5000
 ```
 
 | Parameter | Type     | Description                |
@@ -30,7 +30,7 @@ A Node/Express API for checking the validity of a proxy.
 #### Check a Socks5 proxy
 
 ```
-  GET /checkProxy/?proxy=117.178.244.108:8123&type=socks5&timeout=5000
+  GET api.bogyz.online/checkProxy/?proxy=117.178.244.108:8123&type=socks5&timeout=5000
 ```
 #### Example response
 
